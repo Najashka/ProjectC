@@ -1,0 +1,7 @@
+5 + 3 = 8.0
+10 / 2 = 5.0
+2 ** 4 = 16.0
+sqrt 9 = 3.0
+8 - 8 = 0.0
+10 / 0 = Error: pembagian nol
+abc + 5 = Error: format salah
