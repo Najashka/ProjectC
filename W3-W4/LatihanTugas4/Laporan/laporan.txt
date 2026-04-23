@@ -1,0 +1,11 @@
+Analisis Teks Menggunakan Python
+
+Program ini dibuat untuk menganalisis teks dari sebuah file. Pertama, teks diolah dulu dengan mengubah semua huruf jadi kecil dan menghapus tanda baca supaya lebih rapi.
+
+Setelah itu, program menghitung jumlah kata dan mencari kata yang paling sering muncul.
+
+Dari hasil analisis, didapat jumlah kata sebanyak 36 kata. Kata yang paling sering muncul adalah “teknologi”, “yang”, dan “dan”.
+
+Dari situ bisa dilihat kalau isi teks lebih banyak membahas tentang perkembangan teknologi dan bagaimana teknologi digunakan dalam kehidupan sehari-hari.
+
+Kesimpulannya, program ini cukup membantu untuk memahami isi teks dengan cara melihat kata-kata yang sering muncul. Jadi lebih gampang menangkap inti pembahasannya tanpa harus membaca seluruh teks secara detail.

@@ -1,0 +1,8 @@
+Bug ada di bagian rand() % max, karena hasilnya itu dari 0 sampai max-1. Jadi kadang angka yang keluar bisa 0, padahal seharusnya mulai dari 1 sampai max.
+
+Waktu dicek pakai GDB (pakai print secret), kelihatan kalau nilai yang dihasilkan memang nggak sesuai dengan range yang diharapkan.
+
+Akhirnya diperbaiki dengan mengubah rumus jadi:
+rand() % (max - min + 1) + min
+
+Dengan cara ini, angka yang dihasilkan sudah sesuai, yaitu berada di antara min sampai max.
